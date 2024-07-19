@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* { 
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 6px;
+}
+
+.nav a:hover{
+    background-color: rgba(255, 255, 255, .3)
+}
+.main-nav{
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: lighter;
+    border-bottom: 3px solid white;
+}
+
+.main-nav li{
+    padding: 0 2%;
+}
+
+.main-header {
+    background-image: url(background_header.jpeg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 60px;
+}
+
+.dj-name{
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.dj-name-footer{
+    text-align:left;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.dj-name-large{
+    font-size: 8em;
+}
+
+.contant-section{
+    margin: 1em;
+}
+.container{
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 1.3em;
+}
+.section-header{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    font-size:xx-large;
+    letter-spacing: 5px;
+}
+
+.about-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-footer{
+    background-color:#d7d7d7;
+    padding: 25.em 0;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0;
+    display: inline;
+    float: right;
+}
+
+.foot-nav img{
+    display: inline;
+    width: 30px;
+    height: 30px;
+}
+
+.mixes-section-header{
+    font-weight: normal;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    color: black;
+}
+
+.mixes-section{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.3em;
+}
+
+.mix-section-container{
+    font-family: "Bebas Neue", sans-serif;
+    color: #777;
+    font-size: 1.5em; 
+}
+
+.mix-image{
+    float:inline-start;
+    height: 65px;
+    width: 65px;
+    margin: 0;
+    border-radius: 30%;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 2em 2% 2em 2%;
+    border-radius: 2%;
+    width: 100px;
+    height: 20px;
+    background-color: #d7d7d7;
+    
+}
+
+.btn:hover{
+background-color: white;
+}
+
+.mix-length{
+    font-size: 0.8em;
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.mix-lable{
+    text-align: center;
+    color: black;
+    background-color: #d7d7d7;
+    margin: .5em 25% .5em 25%;
+}
+
+.home-image{
+    float: left;
+    height: 250px;
+    width: 275px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.about-section{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(94, 94, 94);
+    font-size: large;
+}
+
+.booking-button{
+    
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+    margin-bottom: 2em;
+}
+
+.booking-button:active{
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
+
+.book-me{
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+    padding: 2em;
+
+}
+
