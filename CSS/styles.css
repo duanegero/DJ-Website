@@ -42,7 +42,7 @@ nav ul {
 }
 
 .main-header {
-    background-image: url(background_header.jpeg);
+    background-image: url(/Images/background_header.jpeg);
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 60px;
