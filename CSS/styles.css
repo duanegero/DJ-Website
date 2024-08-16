@@ -168,6 +168,7 @@ nav ul {
     height: 20px;
     background-color: #d7d7d7;
     border-radius: 15px;
+    letter-spacing: 1.5px;
 }
 
 .btn:hover{
@@ -178,6 +179,7 @@ background-color: white;
     font-size: 0.8em;
     text-align: center;
     font-family: "Exo 2", sans-serif;
+    letter-spacing: 2px;
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
@@ -185,11 +187,12 @@ background-color: white;
 }
 
 .mix-lable{
-    text-align: center;
+    text-align:center;
     color: black;
     background-color: #d7d7d7;
     margin: .5em 25% .5em 25%;
     border-radius: 30px;
+    
 }
 
 .home-image{
@@ -238,3 +241,8 @@ background-color: white;
 
 }
 
+.mix-name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
