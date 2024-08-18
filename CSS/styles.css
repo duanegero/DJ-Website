@@ -246,3 +246,21 @@ background-color: white;
     font-weight: 100;
     font-style: italic;
 }
+
+.mixes-word {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(94, 94, 94);
+    font-size: large;
+}
+
+.about-word {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(94, 94, 94);
+    font-size: large;
+}
